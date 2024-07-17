@@ -15,7 +15,7 @@
         <label for="email"> Mail Id:</label>
         <input type="email" id="email" name="mail" ><br><br>
         <label for="PASSWORD"> Password:</label>
-        <input type="password" id="PASSWORD" name="pwd" placeholder="pswd"><br><br>
+        <input type="password" id="PASSWORD" name="pwd" placeholder="pswd" pattern="(?=.*\d)(?=.*[a-zA-Z])(?=.*[!@#$%&*]).{8,}"><br><br>
         <label for="Number"> Age:</label>
         <input type="number" id="Number" name="numeric"><br><br>
         <label for="Date"> DOB:</label>
@@ -40,7 +40,7 @@
         <label for="rng">Range:</label>
         <input type="range" id="rng">
         <label for="phone">Mobile:</label>
-        <input type="tel" id="phone" pattern="[0-9]{4,10}">
+        <input type="tel" id="phone" pattern="[0-9]{4,10} required">
         <input type="submit"><br><br>
         <input type="color">color:<br><br>
         <label for="dropdown">Programming lang:</label>
